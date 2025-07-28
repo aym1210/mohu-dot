@@ -90,7 +90,7 @@ const Sponsor = () => {
               <div className="text-center">
                 <Shield className="w-20 h-20 mx-auto mb-6 text-blue-200" />
                 <img
-                  src="src/components/Gallery/Citadel_Group.png"
+                  src="/Gallery/Citadel_Group.png"
                   alt="Citadel Group Logo"
                   className="w-32 h-auto mx-auto mb-4 filter brightness-0 invert"
                 />

@@ -13,7 +13,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="src/components/Gallery/mohu-logo.png.png" 
+              src="/Gallery/mohu-logo.png" 
               alt="MoHu Prestige Logo" 
               className="h-10 w-auto mr-3"
             />

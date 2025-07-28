@@ -10,7 +10,7 @@ const Services = () => {
       price: "$20",
       description: "Complete exterior wash, dry, and shine treatment",
       features: ["Pressure wash", "Hand dry", "Tire shine", "Window cleaning"],
-      image: "src/components/Gallery/exterior-detail.jpg.jpeg"
+      image: "/Gallery/exterior-detail.jpeg"
     },
     {
       icon: <Sparkles className="w-8 h-8" />,
@@ -18,7 +18,7 @@ const Services = () => {
       price: "$30",
       description: "Thorough interior cleaning and conditioning",
       features: ["Vacuum", "Dashboard clean", "Seat conditioning", "Air freshener"],
-      image: "src/components/Gallery/interior-detail.jpg.jpeg"
+      image: "/Gallery/interior-detail.jpeg"
     },
     {
       icon: <Droplets className="w-8 h-8" />,
@@ -26,7 +26,7 @@ const Services = () => {
       price: "$15",
       description: "Professional steam cleaning for carpets and upholstery",
       features: ["Steam cleaning", "Stain removal", "Odor elimination", "Fast drying"],
-      image: "src/components/Gallery/carpet-cleaning.jpeg"
+      image: "/Gallery/carpet-cleaning.jpeg"
     },
     {
       icon: <Shield className="w-8 h-8" />,
@@ -34,7 +34,7 @@ const Services = () => {
       price: "$75",
       description: "Remove contaminants and restore paint smoothness",
       features: ["Paint decontamination", "Smooth finish", "Paint preparation", "Professional grade"],
-      image: "src/components/Gallery/clay-bar.jpg"
+      image: "/Gallery/test.jpg"
     },
     {
       icon: <Eye className="w-8 h-8" />,
@@ -42,7 +42,7 @@ const Services = () => {
       price: "$150",
       description: "Restore clarity and brightness to foggy headlights",
       features: ["UV protection", "Crystal clear finish", "Improved visibility", "Long-lasting results"],
-      image: "src/components/Gallery/headlight-restoration.jpg"
+      image: "/Gallery/headlight-restoration.jpg"
     },
     {
       icon: <Star className="w-8 h-8" />,
@@ -50,7 +50,7 @@ const Services = () => {
       price: "$10",
       description: "Premium wax coating for exterior detail service",
       features: ["Paint protection", "Enhanced shine", "Water repellent", "UV protection"],
-      image: "src/components/Gallery/wax-coating.jpg.jpg"
+      image: "/Gallery/wax-coating.jpeg"
     }
   ];
 
