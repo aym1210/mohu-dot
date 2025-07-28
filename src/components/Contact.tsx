@@ -33,13 +33,8 @@ const Contact = () => {
     {
       icon: <Instagram className="w-6 h-6" />,
       name: "Instagram",
-      url: "#"
+      url: "https://www.google.com/url?q=https%3A%2F%2Fwww.instagram.com%2Fmohu_prestige_detailing%3Futm_source%3Dig_web_button_share_sheet%26igsh%3DZDNlZDc0MzIxNw%3D%3D&sa=D&sntz=1&usg=AOvVaw0BlVhE-AcDk1o1js2VFJM0"
     },
-    {
-      icon: <Facebook className="w-6 h-6" />,
-      name: "Facebook",
-      url: "#"
-    }
   ];
 
   return (
