@@ -100,6 +100,45 @@ const About = () => {
             </div>
           ))}
         </div>
+
+        {/* Testimonials */}
+        <div className="mt-24">
+          <div className="mb-12 text-center">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              What Our Customers Say
+            </h2>
+            <div className="w-20 h-1 bg-blue-600 mx-auto rounded"></div>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Testimonial 1 */}
+            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <p className="text-gray-700 mb-4">
+                "Amazing services for a very cheap price, would recommend this place to anybody that wants a fresh car."
+              </p>
+              <div className="font-semibold text-blue-900">Parth Dhrafani</div>
+              <div className="text-sm text-gray-500">4 reviews • a week ago</div>
+            </div>
+
+            {/* Testimonial 2 */}
+            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <p className="text-gray-700 mb-4">
+                "Highly recommend this place. The service was just amazing while reasonable. Huzayl and the team left no stone unturned. Extremely happy with the service. A big thank you!"
+              </p>
+              <div className="font-semibold text-blue-900">Syed Tameem</div>
+              <div className="text-sm text-gray-500">Local Guide • 16 reviews • a month ago</div>
+            </div>
+
+            {/* Testimonial 3 */}
+            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <p className="text-gray-700 mb-4">
+                "Outstanding cleaning services, would definitely recommend to everyone."
+              </p>
+              <div className="font-semibold text-blue-900">Alina Ahmad</div>
+              <div className="text-sm text-gray-500">1 review • a month ago</div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

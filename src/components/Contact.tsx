@@ -24,7 +24,7 @@ const Contact = () => {
     {
       icon: <Clock className="w-6 h-6" />,
       title: "Hours",
-      details: "Tue & Thu: 12PM-5PM, Sun: 11AM-5PM",
+      details: "Tue & Thu: 12PM-5PM, Sat: 11AM-6PM & Sun: 11AM-3PM",
       action: null
     }
   ];
@@ -139,7 +139,8 @@ const Contact = () => {
                     <p className="font-semibold mb-2">Business Hours:</p>
                     <p>Tuesday: 12:00 PM – 5:00 PM</p>
                     <p>Thursday: 12:00 PM – 5:00 PM</p>
-                    <p>Sunday: 11:00 AM – 5:00 PM</p>
+                    <p>Saturday: 11:00 AM – 6:00 PM</p>
+                    <p>Sunday: 11:00 AM – 3:00 PM</p>
                   </div>
                 </div>
               </div>
